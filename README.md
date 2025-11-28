@@ -1,11 +1,11 @@
-# 📘 IIT Madras – Data Parsing & Classification Assignment
+# IIT Madras – Tresata Assignment
 **Student:** *Your Name*  
 **Parts Completed:** Part A & Part B (Core Requirements)
 
 ## 🧩 Project Overview
 This project implements:
 
-### **1️⃣ Part A — Column Type Prediction (predict.py)**
+### **1️ Part A — Column Type Prediction (predict.py)**
 A Python script that analyzes a column in a CSV file and predicts the type of data it contains:
 - 📱 Phone Number  
 - 🏢 Company Name  
@@ -13,13 +13,13 @@ A Python script that analyzes a column in a CSV file and predicts the type of da
 - 📅 Date  
 - 🔣 Other (fallback)
 
-### **2️⃣ Part B — Data Parsing Tool (parser.py)**
+### **2️ Part B — Data Parsing Tool (parser.py)**
 A Python script that:
 - Automatically identifies the column containing Phone Numbers or Company Names  
 - Parses entries into structured components  
 - Generates an `output.csv` file  
 
-## 📁 Folder Structure
+##  Folder Structure
 ```
 IITM-Data-Parser-Assignment/
 │
@@ -29,18 +29,19 @@ IITM-Data-Parser-Assignment/
 │   ├── predict.py
 │   ├── parser.py
 │
-├── examples/
+├── mcp_package/
 │
+├── server
 ├── requirements.txt
 └── README.md
 ```
 
-## ⚙️ Installation
+##  Installation
 ```
 pip install -r requirements.txt
 ```
 
-## ▶️ Running the Scripts
+## Running the Scripts
 
 ### Part A:
 ```
@@ -52,5 +53,3 @@ python tools/predict.py --input <path/to/input.csv> --column <column_name>
 python tools/parser.py --input <path/to/input.csv>
 ```
 
-## 📜 License
-MIT License
