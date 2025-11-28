@@ -1,19 +1,19 @@
-# IIT Madras – Tresata Assignment
+# IIT Madras - Tresata Assignment
 **Student:** *Your Name*  
 **Parts Completed:** Part A & Part B (Core Requirements)
 
-## 🧩 Project Overview
+## Project Overview
 This project implements:
 
-### **1️ Part A — Column Type Prediction (predict.py)**
+### **1️ Part A - Column Type Prediction (predict.py)**
 A Python script that analyzes a column in a CSV file and predicts the type of data it contains:
-- 📱 Phone Number  
-- 🏢 Company Name  
-- 🌍 Country  
-- 📅 Date  
-- 🔣 Other (fallback)
+-  Phone Number  
+-  Company Name  
+-  Country  
+-  Date  
+-  Other (fallback)
 
-### **2️ Part B — Data Parsing Tool (parser.py)**
+### **2️ Part B - Data Parsing Tool (parser.py)**
 A Python script that:
 - Automatically identifies the column containing Phone Numbers or Company Names  
 - Parses entries into structured components  
